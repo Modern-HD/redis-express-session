@@ -1,0 +1,14 @@
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8f8f8;
+}

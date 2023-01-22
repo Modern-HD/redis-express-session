@@ -1,0 +1,26 @@
+{
+  "name": "redis-express-session",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "back-dev": "nodemon --watch \"express/src/**/*.ts\" --exec \"ts-node\" express/src/App.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/connect-redis": "^0.0.19",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.15",
+    "@types/mysql": "^2.15.21",
+    "connect-redis": "^6.1.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "redis": "^4.5.1",
+    "ts-node": "^10.9.1"
+  }
+}
