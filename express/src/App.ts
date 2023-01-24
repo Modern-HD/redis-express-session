@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(LoginRouter);
 
-app.get("/hello", (req: Request, res: Response) => {
+app.get("/api/hello", (req: Request, res: Response) => {
     res.send("hello world!");
 })
 
